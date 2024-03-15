@@ -28,19 +28,16 @@ button {
   background-color: #1F2937;
 }
 
-.hero h1 {
-  font-size: 48px;
-  font-weight: bolder;
-  color: #f9faf8;
-  margin: 0;
-}
-
 .links ul, .links a, .hero p, .footer {
   list-style: none;
   text-decoration: none;
   font-weight: normal;
   color: #e5e7eb;
   font-size: 18px;
+}
+
+.button, .modal {
+  background-color: #3882f6;
 }
 
 #logo {
@@ -64,6 +61,13 @@ button {
   gap: 15px;
 }
 
+.hero h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin: 0;
+}
+
 .hero {
   display: flex;
   justify-content: center;
@@ -74,18 +78,6 @@ button {
 .hero-left {
   display: flex;
   flex-direction: column;
-}
-
-.info, .call-to-action {
-  background-color: #fff;
-}
-
-.button, .modal {
-  background-color: #3882f6;
-}
-
-.hero button {
-  border: none;
 }
 
 .placeholder-image {
@@ -103,6 +95,23 @@ button {
   padding: 30px;
 }
 
+.hero button {
+  border: none;
+}
+
+.info, .call-to-action {
+  background-color: #fff;
+}
+
+.info-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+  padding: 10px 0 50px;
+}
+
 .info h2 {
   font-size: 36px;
   font-weight: bolder;
@@ -114,15 +123,6 @@ button {
   color: #656565;
   text-align: center;
   font-size: 13px;
-}
-
-.info-boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  gap: 30px;
-  padding: 10px 0 50px;
 }
 
 .box {
@@ -157,7 +157,7 @@ button {
   text-align: justify;
 }
 
-#author {
+#quote-author {
   font-weight: bold;
   align-self: flex-end;
   margin: 0;
