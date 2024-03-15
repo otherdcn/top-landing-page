@@ -116,14 +116,24 @@ button {
 
 .quotes {
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 255px;
+  gap: 5px;
 }
 
 #quote-text {
+  font-size: 24px;
+  color: #1f2937;
   font-style: italic;
+  margin: 0;
+  text-align: justify;
 }
 
 #author {
   font-weight: bold;
+  align-self: flex-end;
+  margin: 0;
 }
 
 .call-to-action {
